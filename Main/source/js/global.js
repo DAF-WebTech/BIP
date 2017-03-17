@@ -17,7 +17,6 @@
  * - Modules
 
  */
-'use strict';
 /*
 --------------------
 Global
