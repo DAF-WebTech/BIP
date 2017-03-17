@@ -25,11 +25,22 @@ gulp.task("js-plugins", function(){
 
 gulp.task("css-plugins", function() 
 {
-	return gulp.src("source/css/plugins/*.css")
+	return gulp.src(["source/css/plugins/bootstrap.min.css", "source/css/plugins/font-awesome.css", "source/css/plugins/plugin.css"])
 		.pipe(minifyCSS())
 		.pipe(concat("plugins-min.css"))
 		.pipe(gulp.dest("./dist"));
 });
 
-//gulp.task("default", [ "js-scripts", "js-modernizr", "js-plugins", "css-plugins" ]);
-gulp.task("default", [  "css-plugins" ]);
+gulp.task("css-globals", function() 
+{
+	return gulp.src(["source/css/globals/main.css", "source/css/globals/dev.css", "source/css/globals/dtesb.css"])
+		.pipe(minifyCSS())
+		.pipe(concat("globals-min.css"))
+		.pipe(gulp.dest("./dist"));
+});
+
+
+
+
+//gulp.task("default", [ "js-scripts", "js-modernizr", "js-plugins" ]);
+gulp.task("default", [  "css-globals", "css-plugins" ]);
