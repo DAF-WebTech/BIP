@@ -40,7 +40,4 @@ gulp.task("css-globals", function()
 });
 
 
-
-
-//gulp.task("default", [ "js-scripts", "js-modernizr", "js-plugins" ]);
-gulp.task("default", [  "css-globals", "css-plugins" ]);
+gulp.task("default", [  "js-scripts", "js-modernizr", "js-plugins", "css-globals", "css-plugins" ]);
