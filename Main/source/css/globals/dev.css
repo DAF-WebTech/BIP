@@ -1,0 +1,1471 @@
+.ablis-hidden-code {
+    display:none;
+}
+
+.quiz-form{
+        margin-top: 2em;
+}
+
+.content__information{
+    clear:both;
+}
+
+.personalisation-panel {
+    max-width: 18em;
+    z-index: 20;
+}
+
+.personalise__body {
+    display: block;
+}
+
+.privacy {
+    font-size: 0.9em;
+    padding-top: 1em;
+}
+
+
+
+@media (min-width: 62.5em){
+    .personalise__title span {
+        display: block;
+        font-weight: 900;
+    }
+    
+    .tender-results .search__count-text {
+        max-width:40%;
+    }
+    
+}
+
+@media (min-width: 37em) {
+    .personalisation-panel {
+        display: block;
+    }
+}
+
+@media (max-width: 37em) {
+    .home__feature .row {
+        margin: 0;
+    }
+}
+
+@media (min-width: 62.5em) {
+    .header__navigation--list {
+        z-index: 1000; 
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-8-pr0 {
+        padding-right: 0px;
+    }
+}
+
+select {
+    line-height: normal;
+}
+
+
+/** fixes for mobile modal **/
+
+@media (max-width: 400px) {
+    /*form .refer li label {
+        display: block;
+        margin-left: 0.6em;
+        margin-top: -2.5em;
+    }*/
+    .modal-content form .tabs ul.nav-tabs label {
+        font-size: 1rem;
+        padding: 0.25em
+    }
+    form#form_email_1601 .tab-content {
+        padding: 0;
+    }
+    form .refer li {
+        /*width: 10px;   */
+    }
+    form .always ul li {
+        padding-right: 0;
+    }
+    form .clearfix.refer ul {
+        margin-right: 0;
+    }
+}
+
+form .refer span.likely {
+    float: right;
+    text-align: right;
+}
+
+.carousel-content p {
+    min-height: 7.5em;
+}
+
+.carousel-content h2 {
+    min-height: 3em;
+}
+
+
+/** end fixes for mobile modal **/
+
+
+/** events map canvas **/
+
+#map-canvas {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+
+/** end events map canvas **/
+
+
+/** IE only form fix **/
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    form .refer li label {
+        display: block;
+        margin-left: 10px;
+        margin-top: -45px;
+    }
+    #exit-survey-later {
+        min-width: 70px;
+    }
+}
+
+
+/** end ie only form fix **/
+
+
+/** fix for exit survey form **/
+
+
+
+.form-group.nofloat ul li {
+    display: block;
+}
+
+.exit-survey:hover {
+    right: -14.375em;
+}
+
+.exit-survey.in {
+    right: 0;
+}
+
+.exit-survey {
+    display: none;
+}
+
+
+/*** end fix for exit survey form ***/
+
+
+/*** to replace current styling ***/
+
+form#form_email_1601 .tab-content {
+    margin: 1em;
+}
+
+
+/*** end to replace current styling ***/
+
+
+/*** resolution checker ***/
+
+#resChecker {
+    position: relative;
+    z-index: 0;
+}
+
+@media (min-width: 37em) {
+    #resChecker {
+        z-index: 1;
+    }
+}
+
+@media (min-width: 60em) {
+    #resChecker {
+        z-index: 2;
+    }
+}
+
+
+/*** end resolution checker ***/
+
+
+/*** fix for hidding the wrong event on home when overrride is used ***/
+
+.event-list__hide-last li:nth-child(2) {
+    display: block;
+}
+
+.event-list__hide-last li:nth-child(3) {
+    display: none;
+}
+
+
+/*** end fix ***/
+
+
+/*** fix for events date styling when there are overrides ***/
+
+.content__tile-event-date {
+    font-size: 0.875rem;
+}
+
+
+/*** end fix ***/
+
+
+/*** fix for landing image text wrapping ***/
+
+.content__thumbnail {
+    margin-bottom: 1em;
+    margin: 0 1em 1em 0;
+    float: none;
+    width: 100%;
+}
+
+@media (min-width: 46.25em) {
+    .content__thumbnail {
+        margin-bottom: 1em;
+        width: 42.666667%;
+        float: left;
+    }
+}
+
+.landing-accordion-target {
+    display: inline;
+}
+
+.landing-accordion, .facet .accordion {
+    overflow: hidden;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
+}
+
+.landing-accordion.active, .facet .accordion.active {
+    overflow: hidden;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
+}
+
+.landing-accordion-link, .search-accordion-link {
+    float: right;
+    margin-right: 1em;
+}
+
+.landing-accordion-link span, .search-accordion-link span {
+    color: #025c95;
+    text-decoration: none;
+}
+
+.landing-accordion-link span i, .search-accordion-link span i {
+    margin-left: 0.5em;
+}
+
+.landing-accordion-link span:hover, .search-accordion-link span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*** end fix ***/
+
+
+/*** new ***/
+
+.global-content-owners .statuscolour, .content-owners-report .statuscolour, .report .statuscolour {
+    border: 1px solid #ccc;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.content-owners-report table tbody tr:nth-child(even).soon td, .content-owners-report table tbody tr.soon td, .content-owners-report tr.soon td, .global-content-owners table tbody tr:nth-child(even).soon td, .global-content-owners table tbody tr.soon td, .global-content-owners tr.soon td {
+    background-color: rgba(252, 185, 81, 0.1);
+}
+
+.content-owners-report table tbody tr:nth-child(even).past td, .content-owners-report table tbody tr.past td, .content-owners-report tr.past td, .global-content-owners table tbody tr:nth-child(even).past td, .global-content-owners table tbody tr.past td, .global-content-owners tr.past td {
+    background-color: rgba(183, 12, 75, 0.1);
+}
+
+.content-owners-report table tbody tr:nth-child(even).future td, .content-owners-report table tbody tr.future td, .content-owners-report tr.future td, .global-content-owners table tbody tr:nth-child(even).future td, .global-content-owners table tbody tr.future td, .global-content-owners tr.future td {
+    background-color: rgba(60, 175, 157, 0.1);
+}
+
+.search-page .sq-form-question-country .sq-form-question-answer:after, .search-page .sq-form-question-date-select .sq-form-question-answer:after, .search-page .sq-form-question-select .sq-form-question-answer:after {
+    right: 2em;
+}
+
+.search-page .sq-form-question-select.sort_order select {
+    width: 135px;
+}
+
+.search-page input[type="text"] {
+    line-height: 1;
+}
+
+@media (max-width: 600px) {
+    .search-page .search__results {
+        overflow: scroll;
+        width: 100%;
+    }
+}
+
+
+/*** end new ***/
+
+
+/*** more new  ***/
+
+table ul li {
+    text-align: left;
+    margin-left: 2em;
+}
+
+.ui-widget-content table a {
+    color: #025c95;
+}
+
+.ui-widget-content table td {
+    word-wrap: break-word;
+    vertical-align: top;
+    /*word-break: break-word;*/
+}
+
+
+/** replacement class for: green-button **/
+
+a.button-primary, a.signup-btn {
+    color: #fff;
+    border-style: none;
+    border-radius: 0;
+    background-color: #b70c4b;
+    font-size: 1em;
+    line-height: 2.75em;
+    padding: 0 1.25em;
+    transition: all 0.1s ease;
+    outline: none;
+    position: relative;
+    margin-right: 8px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+a.button-secondary {
+    color: #fff;
+    border-style: none;
+    border-radius: 0;
+    background-color: #009BE2;
+    font-size: 1em;
+    line-height: 2.75em;
+    padding: 0 1.25em;
+    display: inline-block;
+    transition: all 0.1s ease;
+    outline: none;
+    position: relative;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+input.button-primary, input[type="submit"] {
+    color: #fff;
+    border-style: none;
+    border-radius: 0;
+    background-color: #b70c4b;
+    font-size: 1em;
+    line-height: 2.75em;
+    transition: all 0.1s ease;
+    outline: none;
+    position: relative;
+    margin-right: 8px;
+    padding: 0 20px;
+    vertical-align: top;
+}
+
+input.button-secondary, input[name="qReset"] {
+    color: #fff;
+    border-style: none;
+    border-radius: 0;
+    background-color: #009BE2;
+    font-size: 1em;
+    line-height: 2.75em;
+    transition: all 0.1s ease;
+    outline: none;
+    position: relative;
+    margin-right: 8px;
+    padding: 0 20px;
+    vertical-align: top;
+}
+
+.accordion .ui-accordion-header {
+    background: #eeeeee;
+    border: 1px solid #cccccc;
+    padding: 1em;
+    margin-bottom: 0 !important;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+.accordion .ui-accordion-header-active {
+    background: #025c95;
+    color: #ffffff;
+}
+
+body.ehp-tool h1#page_title {
+    margin-bottom: 0;
+}
+
+.ehp-tool .nav-controls input[type="button"] {
+    display: block;
+    margin: 0 auto;
+}
+
+.ehp-tool .nav-controls input[type="button"].prev {
+    float: left;
+}
+
+.ehp-tool .nav-controls input[type="button"].next, .ehp-tool .nav-controls input[type="button"].select {
+    float: right;
+}
+
+table tr table.table-group tr:nth-child(even) th {
+    background: #f6f6f6;
+}
+
+
+/*** for windows chrome ***/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    body.win form .refer li label {
+        margin-left: 0.6em;
+        margin-top: -42px;
+    }
+}
+
+/*** for firefox ***/
+@-moz-document url-prefix() { 
+    form .refer li label {
+        margin-left: 0.6em;
+    }
+
+    form .refer li:last-child label {
+        margin-left: 0.25em;
+    }
+}
+
+/*** end win ***/
+
+.aside.investing #ia {
+    width: 100%;
+}
+
+.aside.investing #ia ul li {
+    float: none;
+    border-bottom: 1px solid #bbbbbb;
+    width: 100%;
+}
+
+.aside.investing #ia ul h2 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.aside.investing #ia ul li p {
+  /*  margin-left: 85px; */
+    color: black;
+}
+
+.aside.investing #ia ul li.clear {
+    border-bottom: none;
+}
+
+.aside.investing #ia ul li .thumb {
+    height: 100%;
+    text-align: center;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.aside.investing #ia h2 a {
+    /*color: #006838;*/
+    line-height: 1.25;
+}
+
+.aside.investing #ia ul :first-child .thumb {
+    width: 100%;
+    margin: 10px 5px 20px 5px;
+}
+
+/*.aside.investing #ia ul :first-child p {
+    margin-left: 0px;
+}*/
+
+.aside.investing ul, .aside.investing ul li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aside.investing>h2:first-child {
+    padding-bottom: 0.5em;
+}
+
+
+/* styles for the exit survey on mobile */
+
+@media (max-width: 700px) {
+    .exit-survey {
+           background-color: #3caf9d;
+        bottom:-7.5em;
+        color: #fff;
+        display: none;
+        height: 10.25em;
+        line-height: 1.2rem;
+        padding: 3.25em 1em 1.25em 1em;
+        position: fixed;
+       /* right: -14.375em;*/
+        text-shadow: 0 0 3px rgba(0, 0, 0, 0.35);
+        width: 100%;
+        z-index: 2000;
+        -webkit-transition: bottom 0.35s ease-in-out;
+        transition: bottom 0.35s ease-in-out;
+    }
+    .exit-survey__panel {
+        background-color: rgba(0, 0, 0, 0.25);
+        top: 0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.125em;
+        font-weight: 600;
+        height: 2.5em;
+        left: 0;
+        line-height: 2.5em;
+        padding-left: 0.8em;
+        position: absolute;
+        width: 100%;
+        transition: background 0.2s ease;
+    }
+    .exit-survey button {
+    
+        width: 6.9em;
+       /* font-size: .8em;*/
+        line-height: 2.8em;
+        background-color: #eee;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 3px;
+        border-style: none;
+        color: #555;
+        margin-top: 0.2em;
+        margin-right: 0.3em;
+    }
+    
+    .exit-survey:hover {
+       /* bottom:0;*/
+        right:0;
+    }
+    
+    .exit-survey.in {
+        bottom: 0;
+        right:0;
+    }
+    .content-panel{
+        text-align:center;
+    }
+    .content-panel p{
+        text-align:left;
+        margin-bottom: 0;
+    }
+}
+
+/* styles for exit survey > mobile */ 
+@media (min-width: 700px){
+    .exit-survey {
+        background-color: #3caf9d;
+        bottom: 3.125em;
+        color: #fff;
+        display: none;
+        height: 10.25em;
+        line-height: 1.2rem;
+        padding: 1.25em 1.25em 1.25em 3.75em;
+        position: fixed;
+        right: -14.375em;
+        text-shadow: 0 0 3px rgba(0, 0, 0, 0.35);
+        width: 16.875em;
+        z-index: 2000;
+        -webkit-transition: right 0.35s ease-in-out;
+        transition: right 0.35s ease-in-out;
+    }
+    
+    .exit-survey__panel {
+        background-color: rgba(0, 0, 0, 0.25);
+        bottom: 0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.125em;
+        font-weight: 600;
+        height: 2.5em;
+        left: 2.5em;
+        line-height: 2.5em;
+        padding-left: 0.8em;
+        position: absolute;
+        transform: rotate(270deg);
+        transform-origin: left bottom;
+        width: 9.1em;
+        transition: background 0.2s ease;
+    }
+    
+    .exit-survey button {
+        background-color: #eee;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 3px;
+        border-style: none;
+        color: #555;
+        margin-top: 0.2em;
+        margin-right: 0.3em;
+    }
+
+}
+
+/* IP Tool */
+
+.ip-kit.search__form input[type="submit"], .tourism-pathways.search_form input[type="submit"] {
+    background-color: #b70c4b;
+    border-style: none;
+    color: #fff;
+    font-size: 1.875em;
+    height: 46px;
+    line-height: 1em;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 46px;
+    -webkit-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+
+.ip-kit.search__form input[type="text"], .tourism-pathways.search__form input[type="text"] {
+    width: 90%;
+}
+
+.ip-kit.search__form button, .ip-kit.search__form input[type="submit"], .tourism-pathways.search__form button, .tourism-pathways.search__form input[type="submit"] {
+    width: auto;
+    bottom: 10px;
+    top: initial;
+    font-size: 1.4em;
+}
+
+.ip-kit form p, .tourism-pathways form p {
+    margin: 0;
+}
+
+.search-results .ip-result {
+    margin-bottom: .5em;
+}
+
+.licensing .sq-form-question-select {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+#tourism-explore-box .row div {
+    margin-bottom: 1em;
+}
+
+.well p {
+    margin-bottom: 0.5rem;
+}
+
+ul#program-details, #program-details li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#program-details span.label {
+    color: #333;
+    font-size: 100%;
+    padding-left: 0;
+}
+
+
+/*** end new  ***/
+
+
+/*** start double new (PhS 21/12/2016)  ***/
+
+.well ul {
+    padding-left: 20px;
+}
+
+.ui-widget-content a {
+    color: #025c95;
+}
+
+.ui-widget-content a.btn,
+.ui-widget-content a.signup-btn{
+    color: #ffffff;
+}
+
+blockquote {
+    font-size: 1rem;
+}
+
+#program-landing-page .right {
+    float: right;
+}
+
+#program-icons img.remove {
+    display: none;
+}
+
+#eligibility-alert {
+    display: none;
+}
+
+#eligibility-alert.show {
+    display: block;
+    min-height: 5rem;
+}
+
+.fb-next-result-page {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fb-next-result-page:before {
+    content: "\f138";
+}
+
+.report .search__item-title p {
+    font-size: 1rem;
+}
+
+.report .sq-form-question-select .sq-form-question-answer:after {
+    right: 2em;
+}
+
+.report.search__form button {
+    top: 0;
+}
+
+table.tendering td {
+    vertical-align: top;
+    padding-top: 1em;
+}
+
+table.tendering td h2 {
+    margin-top: 0;
+}
+
+.font-standard {
+    font-family: 'Lato', Verdana, "AppleGothic", "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+    /*font-size: 0.95em;
+    */
+}
+
+.ict-events .search__item-thumbnail {
+    padding: 0;
+}
+
+.ict-events table td {
+    vertical-align: top;
+}
+
+.ict-events .slides, .ict-events .video {
+    float: right;
+}
+
+.tourism-program-selector .sq_question_wrapper ul {
+    list-style-type: none;
+}
+
+#matrix_content ul.search-results{
+    list-style-type: none;
+}
+
+.tourism-icon{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    margin-top: 1em;
+    float: right;
+}
+
+/*** end double new  ***/
+
+
+/**** Calculators ******/
+
+.calcdiv {
+    border: 1px solid #b2dbf2;
+    padding: 0.7em;
+    background: #f3faff;
+}
+
+.calcdiv legend {
+    color: #000000;
+    font-size: 110%;
+    background: #009bde;
+    padding: 0.3em 1em;
+    color: #fff;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+.calcdiv .calcDisplay {
+    display: table;
+    width: 95%;
+    table-layout: fixed;
+    empty-cells: show;
+    border-spacing: 0.5em;
+}
+
+.calcdiv .labelCol {
+    display: table-column;
+    text-align: right;
+    width: 50%;
+}
+
+.calcdiv .inputCol {
+    display: table-column;
+}
+
+.calcdiv .calcRow {
+    display: table-row;
+}
+
+.calcdiv .calcCell {
+    display: table-cell;
+    vertical-align: top;
+    margin: 10px;
+    font-size: 90%;
+}
+
+.calcdiv input {
+    text-align: right;
+    width: 100px;
+    padding: 2px;
+    height: 22px;
+    -webkit-box-shadow: inset 0px 1px 1px 0px #dddddd;
+    -moz-box-shadow: inset 0px 1px 1px 0px #dddddd;
+    box-shadow: inset 0px 1px 1px 0px #dddddd;
+    border: 1px solid #025c95;
+}
+
+.calcdiv .calcCell .calcTotal {
+    font-size: 90%;
+    font-weight: bold;
+    border: 2px solid #025c95;
+}
+
+.calcdiv .arrow {
+    display: block;
+    font-weight: 900;
+    font-size: 200%;
+    color: #025c95;
+    width: 100px;
+    text-align: center;
+    margin-top: -7px;
+}
+
+table.calcTable {
+    font-size: 90%;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+}
+
+.calcTable input[type='text'] {
+    text-align: right;
+    width: 11em;
+    height: 25px; 
+    /* to fix https://jira.squiz.net/browse/DBIP-241 */
+    line-height: 25px; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+}
+
+.calcTable tbody td {
+    vertical-align: center;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+}
+
+table.calcTable tfoot tr td {
+    background-color: #025c95;
+    font-weight: bold;
+    color: #fff;
+}
+
+.calcTable tfoot tr td input[type="text"] {
+    background-color: #025c95;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+table.calcTable tr td:nth-child(1) {
+    text-align: left;
+}
+
+table.calcTable tbody tr td:nth-child(2) {
+    text-align: center;
+}
+
+table.calcTable tbody tr td:nth-child(3) {
+    text-align: right;
+    /*background-color: #D7e1d5;*/
+}
+
+table.calcTable tr td:nth-child(3) input[type="text"] {
+    /*background-color: #D7e1d5;*/ 
+    border: none;
+}
+
+table.calcTable tbody tr td:nth-child(2) input[type="text"] {
+    border: 1px solid #ccc;
+}
+
+table.calcTable .rowTotal td {
+    font-size: 105%;
+    border: none;
+}
+
+table.calcTable .rowTotal input, table.calcTable .rowTotal td:nth-child(3) input[type="text"] {
+    background-color: #025c95;
+    color: #fff;
+    border: none; 
+    font-weight: bold; 
+    font-size: 105%;
+    border: none;
+}
+
+/** Titles fee calculator **/
+.calculator .accord_head {
+    margin: 3px 0 1px 0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.calculator .accord_body {
+    background: #fff;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.calculator .head_inactive {
+    background: #eee;
+    /*-webkit-border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    /*border-radius: 5px;*/
+}
+
+.calculator .head_active {
+    background: #eee;
+    /*-webkit-border-top-left-radius: 5px;*/
+    /*-webkit-border-top-right-radius: 5px;*/
+    /*-moz-border-radius-topleft: 5px;*/
+    /*-moz-border-radius-topright: 5px;*/
+    /*border-top-left-radius: 5px;*/
+    /*border-top-right-radius: 5px;*/
+}
+
+.calculator .control-label {
+    font-weight: bold;
+    width: 150px !important;
+    padding: 1px 10px 1px 1px;
+}
+
+.calculator .total {
+    text-align: right;
+}
+
+.calculator .accord_head.active {
+    background-color: #f00;
+}
+
+.calculator .multiform_label {
+    float: left;
+    width: 300px;
+}
+
+.calculator .multiform_check {
+    float: left;
+}
+
+.calculator .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #e5e5e5;
+    border: 1px solid #eee;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.calculator .well blockquote {
+    border-color: #ddd;
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.calculator .well-large {
+    padding: 24px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.calculator .well-small {
+    padding: 9px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.calculator .alert {
+    padding: 8px;
+    margin-bottom: 1em;
+    color: #c09853;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.calculator .alert-info {
+	border-color: #009bde;
+	background-color: #f3faff;
+	color: #000;
+    line-height: 18px;
+    font-size: 90%;
+}
+
+.calculator .form-horizontal .control-group:before, .calculator .form-horizontal .control-group:after {
+    display: table;
+    content: "";
+}
+
+.calculator .form-horizontal .control-label {
+    float: left;
+    width: 140px;
+    padding-top: 5px;
+    text-align: right;
+}
+
+.calculator .control-group {
+    font-size: 90%;
+    margin-bottom: 2em;
+    clear: both;
+}
+
+.calculator .control-group span {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.calculator .form-horizontal input {
+    /*height: 22px;*/
+    /*padding: 3px;*/
+    margin-right: 1em;
+    display: inline-block;
+}
+
+.calculator input, .calculator button, .calculator select, .calculator textarea {
+    /*font-size: 13px;*/
+    /*font-weight: normal;*/
+    /*line-height: 18px;*/
+}
+
+.calculator label {
+    display: block;
+    margin: 5px 0;
+}
+
+.calculator hr {
+    clear: both;
+    margin: 2em 0 1em 0;
+}
+
+.calculator textarea, .calculator input[type="text"], .calculator select {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+.calculator select {
+    /*height: 28px;*/
+    /*line-height: 28px;*/
+    border: 1px solid #bbb;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    /*width: 500px;*/
+    /*padding: 4px;*/
+    color: #3E3E3E;
+}
+
+.calculator input[disabled], .calculator select[disabled], .calculator textarea[disabled], .calculator input[readonly], .calculator select[readonly], .calculator textarea[readonly] {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    border: 1px solid #ddd;
+}
+
+.calculator .controls input[type="checkbox"] {
+    margin-top: 0.8em;
+}
+
+.calculator .controls {
+    margin-left: 160px;
+}
+/** END Titles fee calculator **/
+
+
+/**** END Calculators ******/
+
+/********** Header Navigation Fade effects **********/
+@media (min-width: 62.5em) {
+    .header__navigation--list-item .header__navigation--sublist {
+      visibility: hidden;
+      display: block;
+      opacity: 0;
+      transition:visibility 0s linear 0.25s,opacity 0.25s linear;
+      -webkit-transition:visibility 0s linear 0.25s,opacity 0.25s linear;
+    
+    }
+    .header__navigation--list-item:hover .header__navigation--sublist {
+      visibility: visible;
+      opacity: 1;
+      transition-delay:0.5s;
+    }
+}
+
+/************ END Header Navigation Fade effects *********/
+
+
+/**** Numbered sections - non-tables ****/
+
+.numbered-section{
+    border: 1px solid #b2dbf2;
+    padding: 0;
+    background: #f3faff;
+    border-left-width: 10px;
+    margin: 0 0 1.5em 0;
+}
+
+.numbered-section h2.number{
+    background: #009bde;
+    color: #fff;
+    padding: 0.7em;
+    font-size: 2.44em;
+    font-weight: 400;
+    position: absolute;
+    left: -18px;
+    top: -28px;
+}
+@media (max-width: 786px) {
+    .numbered-section .numbered-content{
+        padding-top: 4em;
+    }
+}
+
+.numbered-sections{
+    margin-top: 2em;
+}
+
+/** to fix https://jira.squiz.net/browse/DBIP-231 */
+.well:after{
+    top:6px;
+}
+
+
+/* to fix https://jira.squiz.net/browse/DBIP-229*/
+
+.exit-survey button {
+    
+    width: 6.9em;
+    font-size: .8em;
+    line-height: 2.8em;
+}
+
+
+/* to fix https://jira.squiz.net/browse/DBIP-229 */
+
+.active--footer-navigation .footer__navigation-title a:before {
+    content: "\f146";
+    
+}
+
+
+/* to fix https://jira.squiz.net/browse/DBIP-241 */
+
+.calcTable input[type='text']::-ms-clear {
+    display: none;
+}
+
+/* to fix https://jira.squiz.net/browse/DBIP-213 */
+
+.calcTable tbody tr:nth-child(even) td {
+    background-color: #FFF;
+}
+
+.calcTable .rowTotal td{
+    background: #025c95; 
+    border-bottom: 5px solid #fff; 
+    border-left: none; 
+    border-right:none;
+    color:white;
+    font-weight:bold;
+}
+
+.calcTable .rowTotal td:hover{
+    background: #025c95; 
+}
+
+.calcTable .user-input-row td:nth-child(1) {
+    text-align: left; 
+    width: 100%;
+    
+}
+
+.calcTable td:hover {
+    background: #FFF;
+}
+
+.calcTable tr:nth-child(even) td:hover{
+    background: #FFF;
+}
+
+/**** end ****/
+
+
+/*** fix for IP tool ***/
+
+#ip-view-results-listing .ui-accordion-header{
+    text-decoration: none;
+}
+
+#ip-knowledge-tool-wrapper .next{
+    float: right;
+}
+
+/*** end ***/
+
+
+
+/*** fix for https://jira.squiz.net/browse/DBIP-271 ***/
+.ablis-suggestion{
+    white-space: inherit;
+}
+/*** end ***/
+
+/*** fix for https://jira.squiz.net/browse/DBIP-167 ***/
+#busqSiteSearch .autocomplete{
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+/*** end fix ***/
+
+
+/*** fix for https://jira.squiz.net/browse/DBIP-256 ***/
+table td{
+vertical-align: top;
+}
+/*** end fix ***/
+
+
+@media print{
+    
+    .ehp-tool tr{
+        page-break-inside: auto;
+    }
+    
+    .exit-survey{
+        display: none !important;
+    }
+#page-wrapper {
+    margin-top: 0;
+}
+    
+    @page 
+    {
+        size:  auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+
+    html
+    {
+        background-color: #FFFFFF; 
+        margin: 0px;  /* this affects the margin on the html before sending to printer */
+    }
+
+    body
+    {
+        margin: 20mm 10mm 20mm 10mm; /* margin you want for the content */
+    }
+    
+}
+
+
+#event-map-canvas{
+    height: 10em;
+    width: 100%;
+}
+
+
+/*** quiz fixes ***/
+.quiz ul{
+    padding: 0;
+}
+
+.quiz li{
+    list-style-type: none;
+}
+
+/* pagination fixes */
+
+a.content__pagination-list-link:hover {
+    text-decoration: none;
+}
+
+.quiz .direction--prev .content__pagination-name, .quiz .direction--prev .content__pagination-direction {
+    display: inline-block;
+    float: left;
+}
+
+.quiz .content__pagination-list-link:hover span.content__pagination-direction, .quiz .content__pagination-list-link:hover .content__pagination-name {
+    text-decoration: underline;
+}
+
+/* content__main list spacing */
+.content__main li {
+    margin: .5em 0;
+}
+
+.content__main td li {
+    margin: .5em 2em;
+}
+
+.content__main .breadcrumb__list-item {
+    margin: 0;
+}
+
+
+.witness-buttons{
+    clear: both;
+    float: left;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.witness{
+    float:left;
+    width:100%;
+}
+
+/*** end ***/
+
+
+
+
+/*** species fix ***/
+.species-carousel-item:focus{
+    outline: none;
+}
+
+/*** end ***/
+
+/*** Quizzes  fix ***/
+.well-info td {
+    border: none;
+}
+
+/*** end ***/
+
+/*** Print  fix ***/
+@media print {
+    .content__breadcrumb a[href]:after {
+        content: "";
+    }
+}
+/*** end ***/
+
+p.caption{
+margin-bottom: 0;
+}
+.rights-holder {
+    font-size: 0.65em;
+}
+
+#btnYork,
+#btnGulf,
+#btnSla{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#solarForm .sq-form-question-select .sq-form-question-answer:after{
+        right: 4.75em;
+}
+
+#solarForm .input-group.sq-form-question.sq-form-question-select{
+    width: 50%;
+}
+
+#businessOperation,
+#billAmount{
+    border-radius: 0;
+}
+
+
+.home__feature .inner .row{
+    margin: 0;
+}
+
+/*For ticket: https://jira.squiz.net/browse/QLDSR-2621 
+Example pages: 
+    https://www.business.qld.gov.au/_bifmedia/example-content-pages/content-example-standard-content-page-accordion/_nocache
+    https://www.business.qld.gov.au/running-business/environment/energy-saving/tips/_nocache
+*/
+.accordion table ul {
+    width: 60px;
+}
+
+.accordion table li {
+    margin: 0.5em 0;
+    list-style-type: none;
+}
