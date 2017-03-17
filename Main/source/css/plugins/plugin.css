@@ -1,0 +1,338 @@
+/*  ABLIS Autocomplete Plugin  */
+.ablis-suggestion input {
+  float: left;
+  margin-top: 0.6em;
+}
+
+.ablis-suggestion {
+  list-style: none;
+  line-height: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ablis-suggestion label {
+  text-overflow: ellipsis;
+  width: 90%;
+  overflow: hidden;
+}
+
+.ablis-suggestion-list {
+  padding: 0;
+}
+
+.autocomplete--results {
+  background: #eee;
+  border: 1px solid darkgray;
+  padding: 0.2em 0.5em;
+  width: auto;
+  border-radius: 5px;
+  overflow-y: scroll;
+  max-height: 15em;
+  position: relative;
+}
+
+.ablis-current-options-list {
+  list-style: none;
+  padding: 0.8em;
+  max-width: 26em;
+}
+
+.ablis-current-options-list li {
+  position: relative;
+  padding: 0.2em 0;
+}
+
+.ablis-remove i {
+  position: absolute;
+  right: 0;
+  font-size: 1.4em;
+  color: #b70c4b;
+}
+
+.search-query.ui-autocomplete-input {
+  box-sizing: border-box;
+}
+
+.autocomplete--moremessage {
+  margin: 0;
+  margin-top: -3px;
+  z-index: 1000;
+  font-weight: bold;
+  background: #eee;
+  border: 1px solid darkgray;
+  border-top: none;
+  padding: 0.5em;
+  width: auto;
+  border-radius: 0 0 5px 5px;
+}
+
+/*
+ * jQuery UI Datepicker 1.8.13
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */
+.ui-datepicker {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none;
+}
+
+.ui-datepicker .ui-datepicker-header {
+  position: relative;
+  padding: .2em 0;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+  position: absolute;
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover {
+  top: 1px;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+  left: 2px;
+}
+
+.ui-datepicker .ui-datepicker-next {
+  right: 2px;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover {
+  left: 1px;
+}
+
+.ui-datepicker .ui-datepicker-next-hover {
+  right: 1px;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px;
+}
+
+.ui-datepicker .ui-datepicker-title {
+  margin: 0 2.3em;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+  font-size: 1em;
+  margin: 1px 0;
+}
+
+.ui-datepicker select.ui-datepicker-month-year {
+  width: 100%;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+  width: 49%;
+}
+
+.ui-datepicker table {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em;
+}
+
+.ui-datepicker th {
+  padding: .7em .3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+}
+
+.ui-datepicker td {
+  border: 0;
+  padding: 1px;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane {
+  background-image: none;
+  margin: .7em 0 0 0;
+  padding: 0 .2em;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button {
+  float: right;
+  margin: .5em .2em .4em;
+  cursor: pointer;
+  padding: .2em .6em .3em .6em;
+  width: auto;
+  overflow: visible;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: left;
+}
+
+/***** PLUGINS - JQUERY UI *****/
+.ui-selectable {
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+.ui-selectable-helper {
+  position: absolute;
+  z-index: 100;
+  border: 1px dotted black;
+}
+
+.ui-sortable-handle {
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+.ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 2px 0 0 0;
+  padding: .5em .5em .5em .7em;
+  font-size: 100%;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 1em 2.2em;
+  border-top: 0;
+  overflow: auto;
+}
+
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: default;
+}
+
+.ui-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  outline: 0;
+}
+
+.ui-menu .ui-menu {
+  position: absolute;
+}
+
+.ui-menu .ui-menu-item {
+  margin: 0;
+  cursor: pointer;
+  /* support: IE10, see #8844 */
+  list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  position: relative;
+  padding: 3px 1em 3px .4em;
+}
+
+.ui-menu .ui-menu-divider {
+  margin: 5px 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  border-width: 1px 0 0 0;
+}
+
+.ui-menu .ui-state-focus,
+.ui-menu .ui-state-active {
+  margin: -1px;
+}
+
+/* icon support */
+.ui-menu-icons {
+  position: relative;
+}
+
+.ui-menu-icons .ui-menu-item-wrapper {
+  padding-left: 2em;
+}
+
+/* left-aligned */
+.ui-menu .ui-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: .2em;
+  margin: auto 0;
+}
+
+/* right-aligned */
+.ui-menu .ui-menu-icon {
+  left: auto;
+  right: 0;
+}
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1em;
+}
+
+.ui-widget .ui-widget {
+  font-size: 1em;
+}
+
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1em;
+}
+
+.ui-widget.ui-widget-content {
+  border: 1px solid #c5c5c5;
+}
+
+.ui-widget-content {
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  color: #333333;
+}
+
+.ui-widget-content a {
+  color: #333333;
+}
+
+.ui-widget-header {
+  border: 1px solid #dddddd;
+  background: #e9e9e9;
+  color: #333333;
+  font-weight: bold;
+}
+
+.ui-widget-header a {
+  color: #333333;
+}
+
+/*# sourceMappingURL=plugins.css.map */

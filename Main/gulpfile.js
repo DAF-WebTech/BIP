@@ -1,6 +1,7 @@
 var gulp = require("gulp");
 var concat = require('gulp-concat');
 var minify = require("gulp-minify");
+var minifyCSS = require("gulp-csso");
 
 gulp.task("js-scripts", function(){
 	return gulp.src(["source/js/global.js", "source/js/*.js", "!source/js/modernizr.js"])
@@ -22,4 +23,13 @@ gulp.task("js-plugins", function(){
 		.pipe(gulp.dest("./dist"));
 });
 
-gulp.task("default", [ "js-scripts", "js-modernizr", "js-plugins" ]);
+gulp.task("css-plugins", function() 
+{
+	return gulp.src("source/css/plugins/*.css")
+		.pipe(minifyCSS())
+		.pipe(concat("plugins-min.css"))
+		.pipe(gulp.dest("./dist"));
+});
+
+//gulp.task("default", [ "js-scripts", "js-modernizr", "js-plugins", "css-plugins" ]);
+gulp.task("default", [  "css-plugins" ]);
