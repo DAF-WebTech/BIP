@@ -10,11 +10,6 @@ gulp.task("js-scripts", function(){
 		.pipe(gulp.dest("./dist"));
 });
 
-gulp.task("js-modernizr", function(){
-	return gulp.src("source/js/modernizr.js")
-		.pipe(minify({noSource: true}))
-		.pipe(gulp.dest("./dist"));
-});
 
 gulp.task("js-plugins", function(){
 	return gulp.src(["source/js/plugins/jquery.min.js", "source/js/plugins/*.js"])
@@ -40,4 +35,4 @@ gulp.task("css-globals", function()
 });
 
 
-gulp.task("default", [  "js-scripts", "js-modernizr", "js-plugins", "css-globals", "css-plugins" ]);
+gulp.task("default", [  "js-scripts",  "js-plugins", "css-globals", "css-plugins" ]);
