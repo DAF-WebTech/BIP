@@ -4,7 +4,7 @@ var minify = require("gulp-minify");
 var minifyCSS = require("gulp-csso");
 
 gulp.task("js-scripts", function(){
-	return gulp.src(["source/js/global.js", "source/js/*.js")
+	return gulp.src(["source/js/global.js", "source/js/*.js"])
 		.pipe(minify({noSource: true}))
 		.pipe(concat("scripts.min.js"))
 		.pipe(gulp.dest("./dist"));
